@@ -3,6 +3,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:react/jsx-uses-react',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
@@ -12,4 +13,4 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
-}
+};
